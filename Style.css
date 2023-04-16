@@ -372,13 +372,12 @@ main {
 
 /* NIP CHART */
 .nip h4 {
-font-family: Manrope;
-font-size: 20px;
-font-weight: 600;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: left;
-
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 .nipChart {
   height: 272px;
@@ -389,12 +388,42 @@ text-align: left;
 .nipChart img {
   margin-left: 200px;
 }
-.nipChart h2 {
+.nipChart h4 {
   font-family: Manrope;
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0em;
   text-align: left;
+}
+@media (max-width: 1280px) {
+  .nip {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .nip {
+    width: 90%;
+  }
+}
+@media (max-width: 912px) {
+  .nip {
+    width: 50%;
+  }
+  .nip h4 {
+    margin-left: -150px;
+  }
+  .nipChart {
+    width: 650px;
+    margin-left: -150px;
+  }
+  .nipChart img {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 786px) {
+  .nip {
+    width: 50%;
+  }
 }
 /* NIP CHART */
